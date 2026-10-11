@@ -1,0 +1,52 @@
+[
+  {
+    "ticket_id": "DAY1-001",
+    "subject": "Overcharged on yearly plan",
+    "body": "I signed up for $100 annual subscription but received invoice for $150."
+  },
+  {
+    "ticket_id": "DAY1-002",
+    "subject": "Cannot export data to CSV",
+    "body": "Clicking the export button causes a 500 internal server error."
+  },
+  {
+    "ticket_id": "DAY1-003",
+    "subject": "Locked out of account",
+    "body": "Entered wrong password thrice and now account shows locked status."
+  },
+  {
+    "ticket_id": "DAY1-004",
+    "subject": "Request for Slack Integration",
+    "body": "Would love to get Slack notifications whenever a task is completed."
+  },
+  {
+    "ticket_id": "DAY1-005",
+    "subject": "Refund request for unused month",
+    "body": "I canceled my subscription 2 days into billing cycle. Can I get a refund?"
+  },
+  {
+    "ticket_id": "DAY1-006",
+    "subject": "API 429 Too Many Requests",
+    "body": "Getting 429 error rate limits while syncing data batch."
+  },
+  {
+    "ticket_id": "DAY1-007",
+    "subject": "2FA SMS code not arriving",
+    "body": "I am trying to log in but 2FA verification SMS code never arrives on my phone."
+  },
+  {
+    "ticket_id": "DAY1-008",
+    "subject": "Add support for Google Login",
+    "body": "Can you allow signing in using Google OAuth account?"
+  },
+  {
+    "ticket_id": "DAY1-009",
+    "subject": "Invoice PDF missing VAT number",
+    "body": "Our corporate tax team needs our VAT ID printed on all monthly invoices."
+  },
+  {
+    "ticket_id": "DAY1-010",
+    "subject": "Database connection timeout",
+    "body": "Production App server lost database connection resulting in P1 downtime."
+  }
+]

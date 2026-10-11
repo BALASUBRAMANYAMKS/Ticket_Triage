@@ -1,0 +1,962 @@
+[
+  {
+    "ticket_id": "HIST-001",
+    "subject": "Invoice query #1",
+    "body": "I was charged $49 instead of $29 for monthly plan.",
+    "resolution": "Verified plan mismatch. Processed refund of $20 and adjusted billing profile.",
+    "category": "billing",
+    "urgency": "P1"
+  },
+  {
+    "ticket_id": "HIST-002",
+    "subject": "API rate limit reached #2",
+    "body": "API calls return 429 status code repeatedly.",
+    "resolution": "Increased tier quota and instructed user on exponential backoff retry configuration.",
+    "category": "technical",
+    "urgency": "P1"
+  },
+  {
+    "ticket_id": "HIST-003",
+    "subject": "Locked out after 3 attempts #3",
+    "body": "Account locked due to wrong password.",
+    "resolution": "Verified identity via SMS MFA and reset failed login counter.",
+    "category": "account_access",
+    "urgency": "P2"
+  },
+  {
+    "ticket_id": "HIST-004",
+    "subject": "Dark mode support #4",
+    "body": "Can you add a native dark theme mode to the Web UI?",
+    "resolution": "Logged feature request FR-2045 into product backlog for Q4 consideration.",
+    "category": "feature_request",
+    "urgency": "P2"
+  },
+  {
+    "ticket_id": "HIST-005",
+    "subject": "Double payment issue #5",
+    "body": "My credit card was charged twice on October 1st.",
+    "resolution": "Identified duplicate charge in Stripe. Issued direct refund for second transaction.",
+    "category": "billing",
+    "urgency": "P3"
+  },
+  {
+    "ticket_id": "HIST-006",
+    "subject": "Slow page load time #6",
+    "body": "The analytics page takes over 15 seconds to load.",
+    "resolution": "Optimized database query indexing and added Redis response caching.",
+    "category": "technical",
+    "urgency": "P3"
+  },
+  {
+    "ticket_id": "HIST-007",
+    "subject": "Password reset token expired #7",
+    "body": "Password reset link says token invalid.",
+    "resolution": "Triggered fresh 2FA reset email and invalidated stale session tokens.",
+    "category": "account_access",
+    "urgency": "P4"
+  },
+  {
+    "ticket_id": "HIST-008",
+    "subject": "Export reports to PDF #8",
+    "body": "Need capability to export monthly reports to PDF format.",
+    "resolution": "Added to roadmap under FR-1190; scheduled for sprint 14.",
+    "category": "feature_request",
+    "urgency": "P4"
+  },
+  {
+    "ticket_id": "HIST-009",
+    "subject": "Update payment method #9",
+    "body": "How do I update my Visa credit card details?",
+    "resolution": "Guided user to Settings > Billing > Payment Methods to edit card details.",
+    "category": "billing",
+    "urgency": "P1"
+  },
+  {
+    "ticket_id": "HIST-010",
+    "subject": "Dashboard crash on export #10",
+    "body": "Exporting CSV throws a 500 server error.",
+    "resolution": "Patched memory allocation limit in export microservice backend.",
+    "category": "technical",
+    "urgency": "P1"
+  },
+  {
+    "ticket_id": "HIST-011",
+    "subject": "SSO login failure #11",
+    "body": "Okta SSO redirects to invalid client ID error.",
+    "resolution": "Re-synced SAML 2.0 metadata certificate with client enterprise domain.",
+    "category": "account_access",
+    "urgency": "P2"
+  },
+  {
+    "ticket_id": "HIST-012",
+    "subject": "Webhook integration #12",
+    "body": "Requesting webhooks for real-time order notifications.",
+    "resolution": "Logged under FR-882. Shared public REST API polling alternative in interim.",
+    "category": "feature_request",
+    "urgency": "P2"
+  },
+  {
+    "ticket_id": "HIST-013",
+    "subject": "Invoice query #13",
+    "body": "I was charged $49 instead of $29 for monthly plan.",
+    "resolution": "Verified plan mismatch. Processed refund of $20 and adjusted billing profile.",
+    "category": "billing",
+    "urgency": "P3"
+  },
+  {
+    "ticket_id": "HIST-014",
+    "subject": "API rate limit reached #14",
+    "body": "API calls return 429 status code repeatedly.",
+    "resolution": "Increased tier quota and instructed user on exponential backoff retry configuration.",
+    "category": "technical",
+    "urgency": "P3"
+  },
+  {
+    "ticket_id": "HIST-015",
+    "subject": "Locked out after 3 attempts #15",
+    "body": "Account locked due to wrong password.",
+    "resolution": "Verified identity via SMS MFA and reset failed login counter.",
+    "category": "account_access",
+    "urgency": "P4"
+  },
+  {
+    "ticket_id": "HIST-016",
+    "subject": "Dark mode support #16",
+    "body": "Can you add a native dark theme mode to the Web UI?",
+    "resolution": "Logged feature request FR-2045 into product backlog for Q4 consideration.",
+    "category": "feature_request",
+    "urgency": "P4"
+  },
+  {
+    "ticket_id": "HIST-017",
+    "subject": "Double payment issue #17",
+    "body": "My credit card was charged twice on October 1st.",
+    "resolution": "Identified duplicate charge in Stripe. Issued direct refund for second transaction.",
+    "category": "billing",
+    "urgency": "P1"
+  },
+  {
+    "ticket_id": "HIST-018",
+    "subject": "Slow page load time #18",
+    "body": "The analytics page takes over 15 seconds to load.",
+    "resolution": "Optimized database query indexing and added Redis response caching.",
+    "category": "technical",
+    "urgency": "P1"
+  },
+  {
+    "ticket_id": "HIST-019",
+    "subject": "Password reset token expired #19",
+    "body": "Password reset link says token invalid.",
+    "resolution": "Triggered fresh 2FA reset email and invalidated stale session tokens.",
+    "category": "account_access",
+    "urgency": "P2"
+  },
+  {
+    "ticket_id": "HIST-020",
+    "subject": "Export reports to PDF #20",
+    "body": "Need capability to export monthly reports to PDF format.",
+    "resolution": "Added to roadmap under FR-1190; scheduled for sprint 14.",
+    "category": "feature_request",
+    "urgency": "P2"
+  },
+  {
+    "ticket_id": "HIST-021",
+    "subject": "Update payment method #21",
+    "body": "How do I update my Visa credit card details?",
+    "resolution": "Guided user to Settings > Billing > Payment Methods to edit card details.",
+    "category": "billing",
+    "urgency": "P3"
+  },
+  {
+    "ticket_id": "HIST-022",
+    "subject": "Dashboard crash on export #22",
+    "body": "Exporting CSV throws a 500 server error.",
+    "resolution": "Patched memory allocation limit in export microservice backend.",
+    "category": "technical",
+    "urgency": "P3"
+  },
+  {
+    "ticket_id": "HIST-023",
+    "subject": "SSO login failure #23",
+    "body": "Okta SSO redirects to invalid client ID error.",
+    "resolution": "Re-synced SAML 2.0 metadata certificate with client enterprise domain.",
+    "category": "account_access",
+    "urgency": "P4"
+  },
+  {
+    "ticket_id": "HIST-024",
+    "subject": "Webhook integration #24",
+    "body": "Requesting webhooks for real-time order notifications.",
+    "resolution": "Logged under FR-882. Shared public REST API polling alternative in interim.",
+    "category": "feature_request",
+    "urgency": "P4"
+  },
+  {
+    "ticket_id": "HIST-025",
+    "subject": "Invoice query #25",
+    "body": "I was charged $49 instead of $29 for monthly plan.",
+    "resolution": "Verified plan mismatch. Processed refund of $20 and adjusted billing profile.",
+    "category": "billing",
+    "urgency": "P1"
+  },
+  {
+    "ticket_id": "HIST-026",
+    "subject": "API rate limit reached #26",
+    "body": "API calls return 429 status code repeatedly.",
+    "resolution": "Increased tier quota and instructed user on exponential backoff retry configuration.",
+    "category": "technical",
+    "urgency": "P1"
+  },
+  {
+    "ticket_id": "HIST-027",
+    "subject": "Locked out after 3 attempts #27",
+    "body": "Account locked due to wrong password.",
+    "resolution": "Verified identity via SMS MFA and reset failed login counter.",
+    "category": "account_access",
+    "urgency": "P2"
+  },
+  {
+    "ticket_id": "HIST-028",
+    "subject": "Dark mode support #28",
+    "body": "Can you add a native dark theme mode to the Web UI?",
+    "resolution": "Logged feature request FR-2045 into product backlog for Q4 consideration.",
+    "category": "feature_request",
+    "urgency": "P2"
+  },
+  {
+    "ticket_id": "HIST-029",
+    "subject": "Double payment issue #29",
+    "body": "My credit card was charged twice on October 1st.",
+    "resolution": "Identified duplicate charge in Stripe. Issued direct refund for second transaction.",
+    "category": "billing",
+    "urgency": "P3"
+  },
+  {
+    "ticket_id": "HIST-030",
+    "subject": "Slow page load time #30",
+    "body": "The analytics page takes over 15 seconds to load.",
+    "resolution": "Optimized database query indexing and added Redis response caching.",
+    "category": "technical",
+    "urgency": "P3"
+  },
+  {
+    "ticket_id": "HIST-031",
+    "subject": "Password reset token expired #31",
+    "body": "Password reset link says token invalid.",
+    "resolution": "Triggered fresh 2FA reset email and invalidated stale session tokens.",
+    "category": "account_access",
+    "urgency": "P4"
+  },
+  {
+    "ticket_id": "HIST-032",
+    "subject": "Export reports to PDF #32",
+    "body": "Need capability to export monthly reports to PDF format.",
+    "resolution": "Added to roadmap under FR-1190; scheduled for sprint 14.",
+    "category": "feature_request",
+    "urgency": "P4"
+  },
+  {
+    "ticket_id": "HIST-033",
+    "subject": "Update payment method #33",
+    "body": "How do I update my Visa credit card details?",
+    "resolution": "Guided user to Settings > Billing > Payment Methods to edit card details.",
+    "category": "billing",
+    "urgency": "P1"
+  },
+  {
+    "ticket_id": "HIST-034",
+    "subject": "Dashboard crash on export #34",
+    "body": "Exporting CSV throws a 500 server error.",
+    "resolution": "Patched memory allocation limit in export microservice backend.",
+    "category": "technical",
+    "urgency": "P1"
+  },
+  {
+    "ticket_id": "HIST-035",
+    "subject": "SSO login failure #35",
+    "body": "Okta SSO redirects to invalid client ID error.",
+    "resolution": "Re-synced SAML 2.0 metadata certificate with client enterprise domain.",
+    "category": "account_access",
+    "urgency": "P2"
+  },
+  {
+    "ticket_id": "HIST-036",
+    "subject": "Webhook integration #36",
+    "body": "Requesting webhooks for real-time order notifications.",
+    "resolution": "Logged under FR-882. Shared public REST API polling alternative in interim.",
+    "category": "feature_request",
+    "urgency": "P2"
+  },
+  {
+    "ticket_id": "HIST-037",
+    "subject": "Invoice query #37",
+    "body": "I was charged $49 instead of $29 for monthly plan.",
+    "resolution": "Verified plan mismatch. Processed refund of $20 and adjusted billing profile.",
+    "category": "billing",
+    "urgency": "P3"
+  },
+  {
+    "ticket_id": "HIST-038",
+    "subject": "API rate limit reached #38",
+    "body": "API calls return 429 status code repeatedly.",
+    "resolution": "Increased tier quota and instructed user on exponential backoff retry configuration.",
+    "category": "technical",
+    "urgency": "P3"
+  },
+  {
+    "ticket_id": "HIST-039",
+    "subject": "Locked out after 3 attempts #39",
+    "body": "Account locked due to wrong password.",
+    "resolution": "Verified identity via SMS MFA and reset failed login counter.",
+    "category": "account_access",
+    "urgency": "P4"
+  },
+  {
+    "ticket_id": "HIST-040",
+    "subject": "Dark mode support #40",
+    "body": "Can you add a native dark theme mode to the Web UI?",
+    "resolution": "Logged feature request FR-2045 into product backlog for Q4 consideration.",
+    "category": "feature_request",
+    "urgency": "P4"
+  },
+  {
+    "ticket_id": "HIST-041",
+    "subject": "Double payment issue #41",
+    "body": "My credit card was charged twice on October 1st.",
+    "resolution": "Identified duplicate charge in Stripe. Issued direct refund for second transaction.",
+    "category": "billing",
+    "urgency": "P1"
+  },
+  {
+    "ticket_id": "HIST-042",
+    "subject": "Slow page load time #42",
+    "body": "The analytics page takes over 15 seconds to load.",
+    "resolution": "Optimized database query indexing and added Redis response caching.",
+    "category": "technical",
+    "urgency": "P1"
+  },
+  {
+    "ticket_id": "HIST-043",
+    "subject": "Password reset token expired #43",
+    "body": "Password reset link says token invalid.",
+    "resolution": "Triggered fresh 2FA reset email and invalidated stale session tokens.",
+    "category": "account_access",
+    "urgency": "P2"
+  },
+  {
+    "ticket_id": "HIST-044",
+    "subject": "Export reports to PDF #44",
+    "body": "Need capability to export monthly reports to PDF format.",
+    "resolution": "Added to roadmap under FR-1190; scheduled for sprint 14.",
+    "category": "feature_request",
+    "urgency": "P2"
+  },
+  {
+    "ticket_id": "HIST-045",
+    "subject": "Update payment method #45",
+    "body": "How do I update my Visa credit card details?",
+    "resolution": "Guided user to Settings > Billing > Payment Methods to edit card details.",
+    "category": "billing",
+    "urgency": "P3"
+  },
+  {
+    "ticket_id": "HIST-046",
+    "subject": "Dashboard crash on export #46",
+    "body": "Exporting CSV throws a 500 server error.",
+    "resolution": "Patched memory allocation limit in export microservice backend.",
+    "category": "technical",
+    "urgency": "P3"
+  },
+  {
+    "ticket_id": "HIST-047",
+    "subject": "SSO login failure #47",
+    "body": "Okta SSO redirects to invalid client ID error.",
+    "resolution": "Re-synced SAML 2.0 metadata certificate with client enterprise domain.",
+    "category": "account_access",
+    "urgency": "P4"
+  },
+  {
+    "ticket_id": "HIST-048",
+    "subject": "Webhook integration #48",
+    "body": "Requesting webhooks for real-time order notifications.",
+    "resolution": "Logged under FR-882. Shared public REST API polling alternative in interim.",
+    "category": "feature_request",
+    "urgency": "P4"
+  },
+  {
+    "ticket_id": "HIST-049",
+    "subject": "Invoice query #49",
+    "body": "I was charged $49 instead of $29 for monthly plan.",
+    "resolution": "Verified plan mismatch. Processed refund of $20 and adjusted billing profile.",
+    "category": "billing",
+    "urgency": "P1"
+  },
+  {
+    "ticket_id": "HIST-050",
+    "subject": "API rate limit reached #50",
+    "body": "API calls return 429 status code repeatedly.",
+    "resolution": "Increased tier quota and instructed user on exponential backoff retry configuration.",
+    "category": "technical",
+    "urgency": "P1"
+  },
+  {
+    "ticket_id": "HIST-051",
+    "subject": "Locked out after 3 attempts #51",
+    "body": "Account locked due to wrong password.",
+    "resolution": "Verified identity via SMS MFA and reset failed login counter.",
+    "category": "account_access",
+    "urgency": "P2"
+  },
+  {
+    "ticket_id": "HIST-052",
+    "subject": "Dark mode support #52",
+    "body": "Can you add a native dark theme mode to the Web UI?",
+    "resolution": "Logged feature request FR-2045 into product backlog for Q4 consideration.",
+    "category": "feature_request",
+    "urgency": "P2"
+  },
+  {
+    "ticket_id": "HIST-053",
+    "subject": "Double payment issue #53",
+    "body": "My credit card was charged twice on October 1st.",
+    "resolution": "Identified duplicate charge in Stripe. Issued direct refund for second transaction.",
+    "category": "billing",
+    "urgency": "P3"
+  },
+  {
+    "ticket_id": "HIST-054",
+    "subject": "Slow page load time #54",
+    "body": "The analytics page takes over 15 seconds to load.",
+    "resolution": "Optimized database query indexing and added Redis response caching.",
+    "category": "technical",
+    "urgency": "P3"
+  },
+  {
+    "ticket_id": "HIST-055",
+    "subject": "Password reset token expired #55",
+    "body": "Password reset link says token invalid.",
+    "resolution": "Triggered fresh 2FA reset email and invalidated stale session tokens.",
+    "category": "account_access",
+    "urgency": "P4"
+  },
+  {
+    "ticket_id": "HIST-056",
+    "subject": "Export reports to PDF #56",
+    "body": "Need capability to export monthly reports to PDF format.",
+    "resolution": "Added to roadmap under FR-1190; scheduled for sprint 14.",
+    "category": "feature_request",
+    "urgency": "P4"
+  },
+  {
+    "ticket_id": "HIST-057",
+    "subject": "Update payment method #57",
+    "body": "How do I update my Visa credit card details?",
+    "resolution": "Guided user to Settings > Billing > Payment Methods to edit card details.",
+    "category": "billing",
+    "urgency": "P1"
+  },
+  {
+    "ticket_id": "HIST-058",
+    "subject": "Dashboard crash on export #58",
+    "body": "Exporting CSV throws a 500 server error.",
+    "resolution": "Patched memory allocation limit in export microservice backend.",
+    "category": "technical",
+    "urgency": "P1"
+  },
+  {
+    "ticket_id": "HIST-059",
+    "subject": "SSO login failure #59",
+    "body": "Okta SSO redirects to invalid client ID error.",
+    "resolution": "Re-synced SAML 2.0 metadata certificate with client enterprise domain.",
+    "category": "account_access",
+    "urgency": "P2"
+  },
+  {
+    "ticket_id": "HIST-060",
+    "subject": "Webhook integration #60",
+    "body": "Requesting webhooks for real-time order notifications.",
+    "resolution": "Logged under FR-882. Shared public REST API polling alternative in interim.",
+    "category": "feature_request",
+    "urgency": "P2"
+  },
+  {
+    "ticket_id": "HIST-061",
+    "subject": "Invoice query #61",
+    "body": "I was charged $49 instead of $29 for monthly plan.",
+    "resolution": "Verified plan mismatch. Processed refund of $20 and adjusted billing profile.",
+    "category": "billing",
+    "urgency": "P3"
+  },
+  {
+    "ticket_id": "HIST-062",
+    "subject": "API rate limit reached #62",
+    "body": "API calls return 429 status code repeatedly.",
+    "resolution": "Increased tier quota and instructed user on exponential backoff retry configuration.",
+    "category": "technical",
+    "urgency": "P3"
+  },
+  {
+    "ticket_id": "HIST-063",
+    "subject": "Locked out after 3 attempts #63",
+    "body": "Account locked due to wrong password.",
+    "resolution": "Verified identity via SMS MFA and reset failed login counter.",
+    "category": "account_access",
+    "urgency": "P4"
+  },
+  {
+    "ticket_id": "HIST-064",
+    "subject": "Dark mode support #64",
+    "body": "Can you add a native dark theme mode to the Web UI?",
+    "resolution": "Logged feature request FR-2045 into product backlog for Q4 consideration.",
+    "category": "feature_request",
+    "urgency": "P4"
+  },
+  {
+    "ticket_id": "HIST-065",
+    "subject": "Double payment issue #65",
+    "body": "My credit card was charged twice on October 1st.",
+    "resolution": "Identified duplicate charge in Stripe. Issued direct refund for second transaction.",
+    "category": "billing",
+    "urgency": "P1"
+  },
+  {
+    "ticket_id": "HIST-066",
+    "subject": "Slow page load time #66",
+    "body": "The analytics page takes over 15 seconds to load.",
+    "resolution": "Optimized database query indexing and added Redis response caching.",
+    "category": "technical",
+    "urgency": "P1"
+  },
+  {
+    "ticket_id": "HIST-067",
+    "subject": "Password reset token expired #67",
+    "body": "Password reset link says token invalid.",
+    "resolution": "Triggered fresh 2FA reset email and invalidated stale session tokens.",
+    "category": "account_access",
+    "urgency": "P2"
+  },
+  {
+    "ticket_id": "HIST-068",
+    "subject": "Export reports to PDF #68",
+    "body": "Need capability to export monthly reports to PDF format.",
+    "resolution": "Added to roadmap under FR-1190; scheduled for sprint 14.",
+    "category": "feature_request",
+    "urgency": "P2"
+  },
+  {
+    "ticket_id": "HIST-069",
+    "subject": "Update payment method #69",
+    "body": "How do I update my Visa credit card details?",
+    "resolution": "Guided user to Settings > Billing > Payment Methods to edit card details.",
+    "category": "billing",
+    "urgency": "P3"
+  },
+  {
+    "ticket_id": "HIST-070",
+    "subject": "Dashboard crash on export #70",
+    "body": "Exporting CSV throws a 500 server error.",
+    "resolution": "Patched memory allocation limit in export microservice backend.",
+    "category": "technical",
+    "urgency": "P3"
+  },
+  {
+    "ticket_id": "HIST-071",
+    "subject": "SSO login failure #71",
+    "body": "Okta SSO redirects to invalid client ID error.",
+    "resolution": "Re-synced SAML 2.0 metadata certificate with client enterprise domain.",
+    "category": "account_access",
+    "urgency": "P4"
+  },
+  {
+    "ticket_id": "HIST-072",
+    "subject": "Webhook integration #72",
+    "body": "Requesting webhooks for real-time order notifications.",
+    "resolution": "Logged under FR-882. Shared public REST API polling alternative in interim.",
+    "category": "feature_request",
+    "urgency": "P4"
+  },
+  {
+    "ticket_id": "HIST-073",
+    "subject": "Invoice query #73",
+    "body": "I was charged $49 instead of $29 for monthly plan.",
+    "resolution": "Verified plan mismatch. Processed refund of $20 and adjusted billing profile.",
+    "category": "billing",
+    "urgency": "P1"
+  },
+  {
+    "ticket_id": "HIST-074",
+    "subject": "API rate limit reached #74",
+    "body": "API calls return 429 status code repeatedly.",
+    "resolution": "Increased tier quota and instructed user on exponential backoff retry configuration.",
+    "category": "technical",
+    "urgency": "P1"
+  },
+  {
+    "ticket_id": "HIST-075",
+    "subject": "Locked out after 3 attempts #75",
+    "body": "Account locked due to wrong password.",
+    "resolution": "Verified identity via SMS MFA and reset failed login counter.",
+    "category": "account_access",
+    "urgency": "P2"
+  },
+  {
+    "ticket_id": "HIST-076",
+    "subject": "Dark mode support #76",
+    "body": "Can you add a native dark theme mode to the Web UI?",
+    "resolution": "Logged feature request FR-2045 into product backlog for Q4 consideration.",
+    "category": "feature_request",
+    "urgency": "P2"
+  },
+  {
+    "ticket_id": "HIST-077",
+    "subject": "Double payment issue #77",
+    "body": "My credit card was charged twice on October 1st.",
+    "resolution": "Identified duplicate charge in Stripe. Issued direct refund for second transaction.",
+    "category": "billing",
+    "urgency": "P3"
+  },
+  {
+    "ticket_id": "HIST-078",
+    "subject": "Slow page load time #78",
+    "body": "The analytics page takes over 15 seconds to load.",
+    "resolution": "Optimized database query indexing and added Redis response caching.",
+    "category": "technical",
+    "urgency": "P3"
+  },
+  {
+    "ticket_id": "HIST-079",
+    "subject": "Password reset token expired #79",
+    "body": "Password reset link says token invalid.",
+    "resolution": "Triggered fresh 2FA reset email and invalidated stale session tokens.",
+    "category": "account_access",
+    "urgency": "P4"
+  },
+  {
+    "ticket_id": "HIST-080",
+    "subject": "Export reports to PDF #80",
+    "body": "Need capability to export monthly reports to PDF format.",
+    "resolution": "Added to roadmap under FR-1190; scheduled for sprint 14.",
+    "category": "feature_request",
+    "urgency": "P4"
+  },
+  {
+    "ticket_id": "HIST-081",
+    "subject": "Update payment method #81",
+    "body": "How do I update my Visa credit card details?",
+    "resolution": "Guided user to Settings > Billing > Payment Methods to edit card details.",
+    "category": "billing",
+    "urgency": "P1"
+  },
+  {
+    "ticket_id": "HIST-082",
+    "subject": "Dashboard crash on export #82",
+    "body": "Exporting CSV throws a 500 server error.",
+    "resolution": "Patched memory allocation limit in export microservice backend.",
+    "category": "technical",
+    "urgency": "P1"
+  },
+  {
+    "ticket_id": "HIST-083",
+    "subject": "SSO login failure #83",
+    "body": "Okta SSO redirects to invalid client ID error.",
+    "resolution": "Re-synced SAML 2.0 metadata certificate with client enterprise domain.",
+    "category": "account_access",
+    "urgency": "P2"
+  },
+  {
+    "ticket_id": "HIST-084",
+    "subject": "Webhook integration #84",
+    "body": "Requesting webhooks for real-time order notifications.",
+    "resolution": "Logged under FR-882. Shared public REST API polling alternative in interim.",
+    "category": "feature_request",
+    "urgency": "P2"
+  },
+  {
+    "ticket_id": "HIST-085",
+    "subject": "Invoice query #85",
+    "body": "I was charged $49 instead of $29 for monthly plan.",
+    "resolution": "Verified plan mismatch. Processed refund of $20 and adjusted billing profile.",
+    "category": "billing",
+    "urgency": "P3"
+  },
+  {
+    "ticket_id": "HIST-086",
+    "subject": "API rate limit reached #86",
+    "body": "API calls return 429 status code repeatedly.",
+    "resolution": "Increased tier quota and instructed user on exponential backoff retry configuration.",
+    "category": "technical",
+    "urgency": "P3"
+  },
+  {
+    "ticket_id": "HIST-087",
+    "subject": "Locked out after 3 attempts #87",
+    "body": "Account locked due to wrong password.",
+    "resolution": "Verified identity via SMS MFA and reset failed login counter.",
+    "category": "account_access",
+    "urgency": "P4"
+  },
+  {
+    "ticket_id": "HIST-088",
+    "subject": "Dark mode support #88",
+    "body": "Can you add a native dark theme mode to the Web UI?",
+    "resolution": "Logged feature request FR-2045 into product backlog for Q4 consideration.",
+    "category": "feature_request",
+    "urgency": "P4"
+  },
+  {
+    "ticket_id": "HIST-089",
+    "subject": "Double payment issue #89",
+    "body": "My credit card was charged twice on October 1st.",
+    "resolution": "Identified duplicate charge in Stripe. Issued direct refund for second transaction.",
+    "category": "billing",
+    "urgency": "P1"
+  },
+  {
+    "ticket_id": "HIST-090",
+    "subject": "Slow page load time #90",
+    "body": "The analytics page takes over 15 seconds to load.",
+    "resolution": "Optimized database query indexing and added Redis response caching.",
+    "category": "technical",
+    "urgency": "P1"
+  },
+  {
+    "ticket_id": "HIST-091",
+    "subject": "Password reset token expired #91",
+    "body": "Password reset link says token invalid.",
+    "resolution": "Triggered fresh 2FA reset email and invalidated stale session tokens.",
+    "category": "account_access",
+    "urgency": "P2"
+  },
+  {
+    "ticket_id": "HIST-092",
+    "subject": "Export reports to PDF #92",
+    "body": "Need capability to export monthly reports to PDF format.",
+    "resolution": "Added to roadmap under FR-1190; scheduled for sprint 14.",
+    "category": "feature_request",
+    "urgency": "P2"
+  },
+  {
+    "ticket_id": "HIST-093",
+    "subject": "Update payment method #93",
+    "body": "How do I update my Visa credit card details?",
+    "resolution": "Guided user to Settings > Billing > Payment Methods to edit card details.",
+    "category": "billing",
+    "urgency": "P3"
+  },
+  {
+    "ticket_id": "HIST-094",
+    "subject": "Dashboard crash on export #94",
+    "body": "Exporting CSV throws a 500 server error.",
+    "resolution": "Patched memory allocation limit in export microservice backend.",
+    "category": "technical",
+    "urgency": "P3"
+  },
+  {
+    "ticket_id": "HIST-095",
+    "subject": "SSO login failure #95",
+    "body": "Okta SSO redirects to invalid client ID error.",
+    "resolution": "Re-synced SAML 2.0 metadata certificate with client enterprise domain.",
+    "category": "account_access",
+    "urgency": "P4"
+  },
+  {
+    "ticket_id": "HIST-096",
+    "subject": "Webhook integration #96",
+    "body": "Requesting webhooks for real-time order notifications.",
+    "resolution": "Logged under FR-882. Shared public REST API polling alternative in interim.",
+    "category": "feature_request",
+    "urgency": "P4"
+  },
+  {
+    "ticket_id": "HIST-097",
+    "subject": "Invoice query #97",
+    "body": "I was charged $49 instead of $29 for monthly plan.",
+    "resolution": "Verified plan mismatch. Processed refund of $20 and adjusted billing profile.",
+    "category": "billing",
+    "urgency": "P1"
+  },
+  {
+    "ticket_id": "HIST-098",
+    "subject": "API rate limit reached #98",
+    "body": "API calls return 429 status code repeatedly.",
+    "resolution": "Increased tier quota and instructed user on exponential backoff retry configuration.",
+    "category": "technical",
+    "urgency": "P1"
+  },
+  {
+    "ticket_id": "HIST-099",
+    "subject": "Locked out after 3 attempts #99",
+    "body": "Account locked due to wrong password.",
+    "resolution": "Verified identity via SMS MFA and reset failed login counter.",
+    "category": "account_access",
+    "urgency": "P2"
+  },
+  {
+    "ticket_id": "HIST-100",
+    "subject": "Dark mode support #100",
+    "body": "Can you add a native dark theme mode to the Web UI?",
+    "resolution": "Logged feature request FR-2045 into product backlog for Q4 consideration.",
+    "category": "feature_request",
+    "urgency": "P2"
+  },
+  {
+    "ticket_id": "HIST-101",
+    "subject": "Double payment issue #101",
+    "body": "My credit card was charged twice on October 1st.",
+    "resolution": "Identified duplicate charge in Stripe. Issued direct refund for second transaction.",
+    "category": "billing",
+    "urgency": "P3"
+  },
+  {
+    "ticket_id": "HIST-102",
+    "subject": "Slow page load time #102",
+    "body": "The analytics page takes over 15 seconds to load.",
+    "resolution": "Optimized database query indexing and added Redis response caching.",
+    "category": "technical",
+    "urgency": "P3"
+  },
+  {
+    "ticket_id": "HIST-103",
+    "subject": "Password reset token expired #103",
+    "body": "Password reset link says token invalid.",
+    "resolution": "Triggered fresh 2FA reset email and invalidated stale session tokens.",
+    "category": "account_access",
+    "urgency": "P4"
+  },
+  {
+    "ticket_id": "HIST-104",
+    "subject": "Export reports to PDF #104",
+    "body": "Need capability to export monthly reports to PDF format.",
+    "resolution": "Added to roadmap under FR-1190; scheduled for sprint 14.",
+    "category": "feature_request",
+    "urgency": "P4"
+  },
+  {
+    "ticket_id": "HIST-105",
+    "subject": "Update payment method #105",
+    "body": "How do I update my Visa credit card details?",
+    "resolution": "Guided user to Settings > Billing > Payment Methods to edit card details.",
+    "category": "billing",
+    "urgency": "P1"
+  },
+  {
+    "ticket_id": "HIST-106",
+    "subject": "Dashboard crash on export #106",
+    "body": "Exporting CSV throws a 500 server error.",
+    "resolution": "Patched memory allocation limit in export microservice backend.",
+    "category": "technical",
+    "urgency": "P1"
+  },
+  {
+    "ticket_id": "HIST-107",
+    "subject": "SSO login failure #107",
+    "body": "Okta SSO redirects to invalid client ID error.",
+    "resolution": "Re-synced SAML 2.0 metadata certificate with client enterprise domain.",
+    "category": "account_access",
+    "urgency": "P2"
+  },
+  {
+    "ticket_id": "HIST-108",
+    "subject": "Webhook integration #108",
+    "body": "Requesting webhooks for real-time order notifications.",
+    "resolution": "Logged under FR-882. Shared public REST API polling alternative in interim.",
+    "category": "feature_request",
+    "urgency": "P2"
+  },
+  {
+    "ticket_id": "HIST-109",
+    "subject": "Invoice query #109",
+    "body": "I was charged $49 instead of $29 for monthly plan.",
+    "resolution": "Verified plan mismatch. Processed refund of $20 and adjusted billing profile.",
+    "category": "billing",
+    "urgency": "P3"
+  },
+  {
+    "ticket_id": "HIST-110",
+    "subject": "API rate limit reached #110",
+    "body": "API calls return 429 status code repeatedly.",
+    "resolution": "Increased tier quota and instructed user on exponential backoff retry configuration.",
+    "category": "technical",
+    "urgency": "P3"
+  },
+  {
+    "ticket_id": "HIST-111",
+    "subject": "Locked out after 3 attempts #111",
+    "body": "Account locked due to wrong password.",
+    "resolution": "Verified identity via SMS MFA and reset failed login counter.",
+    "category": "account_access",
+    "urgency": "P4"
+  },
+  {
+    "ticket_id": "HIST-112",
+    "subject": "Dark mode support #112",
+    "body": "Can you add a native dark theme mode to the Web UI?",
+    "resolution": "Logged feature request FR-2045 into product backlog for Q4 consideration.",
+    "category": "feature_request",
+    "urgency": "P4"
+  },
+  {
+    "ticket_id": "HIST-113",
+    "subject": "Double payment issue #113",
+    "body": "My credit card was charged twice on October 1st.",
+    "resolution": "Identified duplicate charge in Stripe. Issued direct refund for second transaction.",
+    "category": "billing",
+    "urgency": "P1"
+  },
+  {
+    "ticket_id": "HIST-114",
+    "subject": "Slow page load time #114",
+    "body": "The analytics page takes over 15 seconds to load.",
+    "resolution": "Optimized database query indexing and added Redis response caching.",
+    "category": "technical",
+    "urgency": "P1"
+  },
+  {
+    "ticket_id": "HIST-115",
+    "subject": "Password reset token expired #115",
+    "body": "Password reset link says token invalid.",
+    "resolution": "Triggered fresh 2FA reset email and invalidated stale session tokens.",
+    "category": "account_access",
+    "urgency": "P2"
+  },
+  {
+    "ticket_id": "HIST-116",
+    "subject": "Export reports to PDF #116",
+    "body": "Need capability to export monthly reports to PDF format.",
+    "resolution": "Added to roadmap under FR-1190; scheduled for sprint 14.",
+    "category": "feature_request",
+    "urgency": "P2"
+  },
+  {
+    "ticket_id": "HIST-117",
+    "subject": "Update payment method #117",
+    "body": "How do I update my Visa credit card details?",
+    "resolution": "Guided user to Settings > Billing > Payment Methods to edit card details.",
+    "category": "billing",
+    "urgency": "P3"
+  },
+  {
+    "ticket_id": "HIST-118",
+    "subject": "Dashboard crash on export #118",
+    "body": "Exporting CSV throws a 500 server error.",
+    "resolution": "Patched memory allocation limit in export microservice backend.",
+    "category": "technical",
+    "urgency": "P3"
+  },
+  {
+    "ticket_id": "HIST-119",
+    "subject": "SSO login failure #119",
+    "body": "Okta SSO redirects to invalid client ID error.",
+    "resolution": "Re-synced SAML 2.0 metadata certificate with client enterprise domain.",
+    "category": "account_access",
+    "urgency": "P4"
+  },
+  {
+    "ticket_id": "HIST-120",
+    "subject": "Webhook integration #120",
+    "body": "Requesting webhooks for real-time order notifications.",
+    "resolution": "Logged under FR-882. Shared public REST API polling alternative in interim.",
+    "category": "feature_request",
+    "urgency": "P4"
+  }
+]

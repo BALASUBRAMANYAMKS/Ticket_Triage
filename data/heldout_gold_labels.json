@@ -1,0 +1,62 @@
+[
+  {
+    "ticket_id": "HELD-001",
+    "category": "technical",
+    "urgency": "P3",
+    "action": "request_clarification"
+  },
+  {
+    "ticket_id": "HELD-002",
+    "category": "billing",
+    "urgency": "P3",
+    "action": "auto_resolve"
+  },
+  {
+    "ticket_id": "HELD-003",
+    "category": "technical",
+    "urgency": "P2",
+    "action": "escalate"
+  },
+  {
+    "ticket_id": "HELD-004",
+    "category": "technical",
+    "urgency": "P4",
+    "action": "escalate"
+  },
+  {
+    "ticket_id": "HELD-005",
+    "category": "account_access",
+    "urgency": "P3",
+    "action": "auto_resolve"
+  },
+  {
+    "ticket_id": "HELD-006",
+    "category": "feature_request",
+    "urgency": "P4",
+    "action": "auto_resolve"
+  },
+  {
+    "ticket_id": "HELD-007",
+    "category": "technical",
+    "urgency": "P1",
+    "action": "escalate"
+  },
+  {
+    "ticket_id": "HELD-008",
+    "category": "billing",
+    "urgency": "P2",
+    "action": "auto_resolve"
+  },
+  {
+    "ticket_id": "HELD-009",
+    "category": "feature_request",
+    "urgency": "P4",
+    "action": "auto_resolve"
+  },
+  {
+    "ticket_id": "HELD-010",
+    "category": "account_access",
+    "urgency": "P2",
+    "action": "escalate"
+  }
+]

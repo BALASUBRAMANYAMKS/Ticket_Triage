@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: ticket-triage
+Version: 0.1.0
+Summary: Support Ticket Triage with RAG and Decision Layer
+Requires-Python: <3.13,>=3.10
+Requires-Dist: pydantic>=2.0
+Requires-Dist: google-genai>=0.1.0
+Requires-Dist: groq>=0.4.0
+Requires-Dist: sentence-transformers>=2.2.0
+Requires-Dist: faiss-cpu>=1.7.4
+Requires-Dist: python-dotenv>=1.0.0
+Requires-Dist: rich>=13.0.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0; extra == "dev"
+Requires-Dist: streamlit>=1.30.0; extra == "dev"
